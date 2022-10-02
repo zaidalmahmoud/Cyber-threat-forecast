@@ -1,0 +1,2 @@
+MAPE: [0.13163567]
+Hyperparams: [0.2, 1, 4, 2, [100, 50], 0.01, 200, 0.2, 'not differenced']
