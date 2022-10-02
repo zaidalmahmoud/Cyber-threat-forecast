@@ -1,7 +1,7 @@
 Code of paper "A holistic and proactive approach to forecasting cyber threats
 and trend analysis".
 
-**This project contains univariate and multivariate implementation of Bayesian Long short-term memory (B-LSTM) for forecasting cyber-threats**.
+**This project contains univariate and multivariate implementation of Bayesian Long short-term memory (B-LSTM) for forecasting cyber-threats 3 years in advance**.
 
 
 # Project overview
@@ -13,3 +13,4 @@ In the model optimisation code, 42 models for 42 attack types are optimised and 
 
 
 
+![Model validation](./univariate/output_validation_results/Brute%20Force%20Attack_t_7.png)
