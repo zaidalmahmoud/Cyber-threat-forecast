@@ -11,7 +11,7 @@ Each of the univariate and multivariate folders contains 2 jupyter-notebooks. Th
 Below is an example of a validation result when running "hp_optimisation_u" code. The model learns the time-series pattern from the history and can produce a forecast, which is well-aligned with the actual trend. This plot is saved to  "output_validation_results". 
 
 
-<a href="url"><img src="./univariate/output_validation_results/Brute%20Force%20Attack_t_7.png" align="left" height="900" width="800"  ></a>
+<a href="url"><img src="./univariate/output_validation_results/Brute%20Force%20Attack_t_7.png" align="left"  ></a>
 ![validation_result](./univariate/output_validation_results/Brute%20Force%20Attack_t_7.png)
 
 # Notes
