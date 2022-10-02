@@ -10,9 +10,9 @@ Each of the univariate and multivariate folders contains 2 jupyter-notebooks. Th
 # Output example
 Below is an example of a validation result when running "hp_optimisation_u" code. The model learns the time-series pattern from the history and can produce a forecast, which is well-aligned with the actual trend. This plot is saved to  "output_validation_results". 
 
-
-<a href="url"><img src="./univariate/output_validation_results/Brute%20Force%20Attack_t_7.png" align="center"  width="700"   ></a>
-![validation_result](./univariate/output_validation_results/Brute%20Force%20Attack_t_7.png)
+<p align="center">
+<a href="url"><img src="./univariate/output_validation_results/Brute%20Force%20Attack_t_7.png" align="centre"  width="700"   ></a>
+</p>
 
 # Notes
 In the model optimisation code, 42 models for 42 attack types are optimised and saved. In the forecast code, the attacks included (see "attacks" list) in the univariate approach are those that were better forecasted (had a model with lower error) when using the univariate approach. Similarly, the attacks included in the multivariate approach are those that were better forecasted (had a model with lower error) when using the multivariate approach. However, it is possible to modify the code to forecast all the 42 attacks for each approach, by optimising the model of all attacks in the optimisation code and then adding the missing attacks (their column names) manually to the "attacks" list in the forecast code.
