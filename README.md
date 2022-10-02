@@ -2,6 +2,8 @@ Code of paper "A holistic and proactive approach to forecasting cyber threats".
 
 **This project contains univariate and multivariate implementation of Bayesian Long short-term memory (B-LSTM) for forecasting cyber-threats 3 years in advance**.
 
+#Dataset
+The dataset used for forecasting cyber-threat can be found [here](https://github.com/zaidalmahmoud/Cyber-threat-forecast/blob/main/univariate/input_data/T-HMGDN-F-0711-0322.csv).
 
 # Project overview
 Each of the univariate and multivariate folders contains 2 jupyter-notebooks. The first is for optimising the model, called "hp_optimisation_u" or "hp_optimisation_m", and the second for the final forecast, called "forecast_u" or "forecast_m". The dataset is in the directory "input_data" and is read in the code. The model optimisation code writes the results to 2 folders, which are "output_validation_results" and "output_hyperparameters". The "output_validation_results" contains some plots and hyperparameters of good performing models (error below some threshold), while the folder "output_hyperparameters" contains the hyperparameters of the final optimised models. The "forecast" code reads the optimised model hyperparameters from the folder "output_hyperparameters" to train the final model on the complete data and generate future trend forecasts using 3 different seeds (to choose the most reasonable from the 3 results). These forecasts are saved to the folder "output_forecast" as text files and plots.
