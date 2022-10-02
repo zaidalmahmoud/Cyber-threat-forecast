@@ -14,7 +14,7 @@ Below is an example of a validation result for the forecast of the brute force a
 </p>
 
 
-Below is an example for 3 years forecast for the worms attack, as an output of the code "forecast_m". The model predicts the trend 3 years in advance until 2025, while using multiple features. The Bayesian distribution is illustrated by the 95% confidence interval and variance area. (M) indicates a multivariate model.
+Below is an example of 3 years forecast for the worms attack, as an output of the code "forecast_m". The model predicts the trend 3 years in advance until 2025, while using multiple features. The Bayesian distribution is illustrated by the 95% confidence interval and variance areas. The increase of these green areas over time indicates an increase in the model's uncertainty. (M) indicates a multivariate model.
 
 <p align="center">
 <a href="url"><img src="./multivariate/output_forecast/Worms1.png" align="centre"  width="700"   ></a>
