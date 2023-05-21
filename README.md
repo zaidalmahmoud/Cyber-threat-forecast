@@ -27,7 +27,7 @@ Below is an example of 3 years forecast for the worms attack, as an output of th
 In the model optimisation code, 42 models for 42 attack types are optimised and saved. In the forecast code, the attacks included (see "attacks" list) in the univariate approach are those that were better forecasted (had a model with lower error) when using the univariate approach. Similarly, the attacks included in the multivariate approach are those that were better forecasted (had a model with lower error) when using the multivariate approach. However, it is possible to modify the code to forecast all the 42 attacks for each approach, by optimising the model of all attacks in the optimisation code and then adding the missing attacks (their column names) manually to the "attacks" list in the forecast code.
 
 # Citation
-
+```
 @article{almahmoud2023holistic,
   title={A holistic and proactive approach to forecasting cyber threats},
   author={Almahmoud, Zaid and Yoo, Paul D and Alhussein, Omar and Farhat, Ilyas and Damiani, Ernesto},
@@ -38,7 +38,7 @@ In the model optimisation code, 42 models for 42 attack types are optimised and 
   year={2023},
   publisher={Nature Publishing Group UK London}
 }
-
+```
 
 
 
