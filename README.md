@@ -1,4 +1,4 @@
-Code of paper "A holistic and proactive approach to forecasting cyber threats".
+Code of paper "[A holistic and proactive approach to forecasting cyber threats](https://www.nature.com/articles/s41598-023-35198-1)".
 
 **This project contains univariate and multivariate implementation of Bayesian Long short-term memory (B-LSTM) for forecasting cyber-threats 3 years in advance**.
 
